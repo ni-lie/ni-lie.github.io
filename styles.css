@@ -11,15 +11,15 @@ html {
 }
 
 body {
-    background: #080808;
+    /* background: #080808; */
+    background: #34252F;
     color: #fff;
 }
 
 #header {
     width:100%;
     height: 100vh;
-    /* background-color: #080808; */
-    /* background-image: url(images/memoji.png); */
+    /* background-image: url(images/memoji_bg.png); */
     background-size: cover;
     background-position: cover;
 } 
@@ -36,7 +36,7 @@ nav {
 }
 
 .logo {
-    width: 140px;
+    width: 90px;
 }
 
 nav ul li {
@@ -58,7 +58,9 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: hsl(121, 100%, 50%);
+    /* background: hsl(121, 100%, 50%); */
+    /* background: hsl(300, 23%, 27%); */
+    background: #63D471;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -76,11 +78,20 @@ nav ul li a:hover::after{
 
 .header-text h1 {
     font-size: 60px;
-    margin-top: 20px; 
+    /* margin-top: 20px;  */
 }
 
+
 .header-text h1 span {
-    color: hsl(121, 100%, 50%);
+    /* color: hsl(121, 100%, 50%); */
+    /* color: #519872; */
+    color: #63D471;
+}
+
+.header-text .par {
+    font-size: 16px;
+    /* color: hsla(148, 30%, 46%, 0.507); */
+    color: #ffffff63;
 }
 
 /* --------------------- ABOUT ------------------------ */
@@ -101,7 +112,9 @@ nav ul li a:hover::after{
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    border-radius: 15%;
+    border: 8px solid #63D471;
 }
 
 .about-col-2 {
@@ -132,7 +145,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #00ff04;
+    background: #63D471;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -149,8 +162,8 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span {
-    color: hsl(121, 100%, 50%);
-    font-size: 14px
+    color: #63D471;
+    font-size: 17px;
 }
 
 .tab-contents {
@@ -161,6 +174,12 @@ nav ul li a:hover::after{
     display: block;
 }
 
+.tab-contents a {
+    font-weight: bold;
+    color: #ababab;
+    text-decoration: none;
+}
+
 /* -----------PORTFOLIO------------ */
 
 #portfolio {
@@ -169,7 +188,8 @@ nav ul li a:hover::after{
 
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -182,29 +202,31 @@ nav ul li a:hover::after{
 
 .work img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
     display: block;
     transition: transform 0.5s;
 }
 
 .layer {
     width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #00ff04);
+    height: 0%;
+    background: linear-gradient(rgba(0,0,0,0.6), #63D471);
     border-radius: 10px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0px;  
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
     transition: 0.5s;
 }
+
+
 
 .layer h3{
     font-weight: 500;
@@ -213,7 +235,7 @@ nav ul li a:hover::after{
 
 .layer a {
     margin-top: 20px;
-    color: #00ff04;
+    color: #63D471;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -236,7 +258,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #00ff04;
+    border: 1px solid #63D471;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -245,7 +267,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover {
-    background: rgb(0, 255, 4,  0.8);
+    background: rgba(99, 212, 112, 0.8);
 }
 
 /* ----------------Contact------------------- */
@@ -262,7 +284,7 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i {
-    color: #00ff04;
+    color: #63D471;
     margin-right: 15px;
     font-size: 25px;;
 }
@@ -281,13 +303,13 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover {
-    color:#00ff04;
+    color:#63D471;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background:rgb(0, 255, 4, 0.8);
+    background:rgb(99, 212, 113, 0.8);
 }
 
 .contact-right form {
@@ -322,15 +344,21 @@ form .btn2 {
     margin-top: 20px;
 }
 
+#msg {
+    color: #63D471;
+    margin-top: -40px;
+    display: block;
+}
+
 /* -------------------CSS for mobile screens ----------------- */
 nav .fa-solid{
     display: none;
 }
 
 @media only screen and (max-width: 600px){
-    #header {
+    /* #header {
         background-image: url(images/phone-background.png);
-    }
+    } */
     .header-text {
         margin-top: 100%;
         font-size: 16px;
@@ -344,7 +372,7 @@ nav .fa-solid{
     }
 
     nav ul {
-        background:#00ff04;
+        background:#63D471;
         position: fixed;
         top: 0;
         right: -200px;
