@@ -117,6 +117,11 @@ nav ul li a:hover::after{
     border: 8px solid #63D471;
 }
 
+.about-col-1 p {
+    margin: 12px 30px;
+    font-style: italic;
+}
+
 .about-col-2 {
     flex-basis: 60%;
 }
