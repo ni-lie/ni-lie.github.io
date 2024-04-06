@@ -121,6 +121,11 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 p a {
+    text-decoration: none;
+    color: #63D471;
+}
+
 .sub-title {
     font-size: 60px;
     font-weight: 600;
@@ -179,6 +184,7 @@ nav ul li a:hover::after{
     color: #ababab;
     text-decoration: none;
 }
+
 
 /* -----------PORTFOLIO------------ */
 
