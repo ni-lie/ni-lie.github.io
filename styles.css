@@ -121,6 +121,14 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 p {
+    margin-bottom: 15px;
+}
+
+.about-col-2 p:last-child {
+    margin-bottom: 0;
+}
+
 .about-col-2 p a {
     text-decoration: none;
     color: #63D471;
