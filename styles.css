@@ -180,8 +180,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents a {
-    font-weight: bold;
-    color: #ababab;
+    color: #63D471;
     text-decoration: none;
 }
 
