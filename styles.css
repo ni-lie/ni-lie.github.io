@@ -86,7 +86,7 @@ nav ul li a:hover::after{
     /* color: hsl(121, 100%, 50%); */
     /* color: #519872; */
     color: #63D471;
-}
+}   
 
 .header-text .par {
     font-size: 16px;
@@ -366,6 +366,13 @@ form .btn2 {
     color: #63D471;
     margin-top: -40px;
     display: block;
+}
+
+/* NEW CHANGES */
+
+.header-text a.btn{
+    font-size: 13px;
+    margin: 20px 0;
 }
 
 /* -------------------CSS for mobile screens ----------------- */
