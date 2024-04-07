@@ -79,20 +79,15 @@ nav ul li a:hover::after{
 
 .header-text h1 {
     font-size: 60px;
-    /* margin-top: 20px;  */
 }
 
 
 .header-text h1 span {
-    /* color: hsl(121, 100%, 50%); */
-    /* color: #519872; */
     color: #63D471;
 }   
 
 .header-text .par {
     font-size: 16px;
-    /* color: hsla(148, 30%, 46%, 0.507); */
-    /* color: #ffffff63; */
     color: #ababab;
 }
 
@@ -393,6 +388,11 @@ nav .fa-solid{
     .header-text h1 {
         font-size: 30px;
     }
+
+    .header-text .par {
+        font-size: 13px;
+    }
+    
     nav .fa-solid {
         display: block;
         font-size: 25px;
