@@ -92,7 +92,8 @@ nav ul li a:hover::after{
 .header-text .par {
     font-size: 16px;
     /* color: hsla(148, 30%, 46%, 0.507); */
-    color: #ffffff63;
+    /* color: #ffffff63; */
+    color: #ababab;
 }
 
 /* --------------------- ABOUT ------------------------ */
