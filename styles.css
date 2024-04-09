@@ -112,6 +112,11 @@ nav ul li a:hover::after{
     /* border-radius: 15px; */
     border-radius: 15%;
     border: 8px solid #63D471;
+    transition: transform 0.3s;
+}
+
+.about-col-1 img:hover {
+    transform: rotate(0.5turn);
 }
 
 .about-col-1 p {
