@@ -398,6 +398,10 @@ form .btn2 {
     margin: 20px 0;
 }
 
+textarea {
+    resize: none;
+}
+
 /* -------------------CSS for mobile screens ----------------- */
 nav .fa-solid{
     display: none;
