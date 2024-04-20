@@ -299,6 +299,11 @@ nav ul li a:hover::after{
     transform: translateY(-8px);
 }
 
+.container p a {
+    text-decoration: none;
+    color: #63D471;
+}
+
 /* ----------------Contact------------------- */
 .contact-left {
     flex-basis: 35%;
