@@ -125,23 +125,6 @@
         </div>
     </div>
       
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzS1wDfv0QFvEgbM2eN9Fi9YyDIvoa4mk9fgiMg4jU_be8NfYPa1q8EKom2xIhrWqlRdQ/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById('msg')
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully!"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                }, 5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-    </script>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/5e0f2fb1c4.js" crossorigin="anonymous"></script>
 
