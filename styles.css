@@ -26,13 +26,6 @@ body {
 
 .container {
     padding: 10px 10%;
-    width: 90%;
-}
-
-.center-content {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
 }
 
 .container-navbar {
