@@ -110,7 +110,8 @@
                     <!-- <a href="Coronel_Resume_0.pdf" class="btn btn2" target="_blank">View Resumé</a> -->
                 </div>
                 <div class="contact-right">
-                    <form name='submit-to-google-sheet'>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="48d0f495-29a0-4dca-8c5a-2ac412d9efa8">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
