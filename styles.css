@@ -32,7 +32,7 @@ body {
 .center-content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .container-navbar {
@@ -408,7 +408,7 @@ nav .fa-solid{
         background-image: url(images/phone-background.png);
     } */
     .header-text {
-        margin-top: 70%;
+        margin-top: 100%;
         font-size: 16px;
     }
     .header-text h1 {
