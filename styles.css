@@ -94,11 +94,16 @@ nav ul li a:hover::after{
     color: #63D471;
 }   
 
+/* .header-text .par {
+    font-size: 16px;
+    color: #ababab;
+} */
+
 .header-text .par {
     font-size: 16px;
     color: #ababab;
+    text-wrap: balance;
 }
-
 /* --------------------- ABOUT ------------------------ */
 #about {
     padding: 80px 0;
