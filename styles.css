@@ -17,9 +17,9 @@ body {
 }
 
 .scroll-watcher {
-    height: 8px;
+    height: 2px;
     position: fixed;
-    top: 0;
+    top: 76px;
     z-index: 1000;
     background-color: #63D471;
     width: 100%;
