@@ -230,6 +230,31 @@ nav ul li a:hover::after{
     text-decoration: none;
 }
 
+.exp-item {
+    position: relative;
+}
+
+.exp-item:not(:last-child)::before {
+    content: "";
+    position:absolute;
+    top: -25px;
+    left: -30px;
+    width: 1px;
+    height: calc(100% + 50px);
+    background: gray;
+}
+
+.exp-item::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -33px;
+    height: 6px;
+    width: 6px;
+    background-color:rgba(99, 212, 112);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px gray;
+}
 
 /* -----------PORTFOLIO------------ */
 
