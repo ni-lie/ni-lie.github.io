@@ -35,3 +35,6 @@ readingTime: 5 min read
 
 The filename becomes the article URL. For example, `reliable-pipelines.md` is published at
 `/blog/reliable-pipelines/`.
+
+Add the `#draft` tag anywhere in a Markdown file to exclude it from the blog index and prevent its
+article page from being generated. Remove the tag when the article is ready to publish.

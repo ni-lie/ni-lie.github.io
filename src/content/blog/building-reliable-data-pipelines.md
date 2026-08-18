@@ -3,6 +3,7 @@ title: Building reliable data pipelines
 description: Practical principles I use to make data work predictable, observable, and easier to maintain.
 date: 2026-08-18
 readingTime: 4 min read
+tags: #dataengineering
 ---
 
 # Building reliable data pipelines

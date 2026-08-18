@@ -81,8 +81,13 @@ function parsePost(path: string, source: string): BlogPost {
   };
 }
 
+function isDraft(source: string): boolean {
+  return /(^|\s)#draft(?=\s|$)/im.test(source);
+}
+
 export function getPosts(): BlogPost[] {
   return Object.entries(markdownFiles)
+    .filter(([, source]) => !isDraft(source))
     .map(([path, source]) => parsePost(path, source))
     .sort((a, b) => b.date.localeCompare(a.date));
 }
