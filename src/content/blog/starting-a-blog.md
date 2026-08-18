@@ -1,5 +1,5 @@
 ---
-title: Entering a New Era of My Life
+title: Entering a new era of my life
 description: Starting a blog
 date: 2026-08-18
 readingTime: 1 min read
