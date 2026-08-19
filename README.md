@@ -2,7 +2,7 @@
 
 A responsive personal portfolio built with SvelteKit and TypeScript. The homepage focuses on
 professional experience, data platforms and technologies, and direct contact links. Projects and
-articles live on dedicated routes.
+articles live on dedicated routes, with an About page for a more personal introduction.
 
 ## Development
 
